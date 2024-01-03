@@ -100,3 +100,52 @@ See also the list of [contributors](https://github.com/neeraj-pratap-singh/ott-p
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE.md` file for details.
+
+## Folder Structure
+
+OTT-Platform/
+│
+├── docs/                             # Documentation and design files
+│   ├── BRD.md                        # Business Requirements Document
+│   ├── architecture/                 # Architecture diagrams and documents
+│   └── designs/                      # UI/UX design files and assets
+│
+├── backend/                          # Backend source code
+│   ├── src/                          # Main application source code
+│   │   ├── config/                   # Configuration files and environment variables
+│   │   ├── controllers/              # Controller files to handle requests
+│   │   ├── models/                   # Database models
+│   │   ├── routes/                   # Application routes
+│   │   ├── services/                 # Business logic
+│   │   └── utils/                    # Utility and helper functions
+│   ├── test/                         # Automated tests
+│   ├── package.json                  # NPM dependencies and scripts
+│   └── ...
+│
+├── frontend/                         # Frontend source code
+│   ├── public/                       # Static files and index.html
+│   ├── src/                          # React/Next.js application source
+│   │   ├── components/               # Reusable components
+│   │   ├── pages/                    # Page components for routing
+│   │   ├── assets/                   # Static assets like images, fonts, etc.
+│   │   ├── styles/                   # CSS or styling files
+│   │   └── ...
+│   ├── package.json                  # NPM dependencies and scripts
+│   └── ...
+│
+├── mobile/                           # React Native source for mobile apps
+│   ├── android/                      # Android specific files
+│   ├── ios/                          # iOS specific files
+│   ├── src/                          # Shared React Native source
+│   └── ...
+│
+├── deployment/                       # Deployment scripts and configurations
+│   ├── docker/                       # Dockerfiles and related configurations
+│   ├── kubernetes/                   # Kubernetes deployment manifests
+│   └── ci-cd/                        # Continuous Integration/Continuous Deployment configs
+│
+├── scripts/                          # Utility scripts for building, running, etc.
+│
+├── README.md                         # README for developers
+├── CONTRIBUTING.md                   # Contribution guidelines
+└── LICENSE.md                        # The license of the project
